@@ -1,5 +1,5 @@
 public class CollegeStudent extends Student {
-    private int myYear;       // What year they're in 
+    private int myYear;       // What year they're in
     private String myMajor;   // What they’re majoring in (for now, anyway)
 
     // Constructor — creates a new college student who probably runs on coffee and deadlines
@@ -9,17 +9,17 @@ public class CollegeStudent extends Student {
         myMajor = major;
     }
 
-    // Get what year they’re in 
+    // Get what year they’re in
     public int getYear() {
         return myYear;
     }
 
-    // Get their major 
+    // Get their major
     public String getMajor() {
         return myMajor;
     }
 
-    // Set a new year 
+    // Set a new year
     public void setYear(int year) {
         myYear = year;
     }

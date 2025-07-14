@@ -1,5 +1,5 @@
 public class Person {
-    protected String myName;    // Their name 
+    protected String myName;    // Their name
     protected int myAge;        // How many birthday cakes they’ve survived
     protected String myGender;  // "M", "F", or however they roll
 
@@ -10,12 +10,12 @@ public class Person {
         myGender = gender;
     }
 
-    // Get their name 
+    // Get their name
     public String getName() {
         return myName;
     }
 
-    // Get their age — for age-appropriate jokes 
+    // Get their age — for age-appropriate jokes
     public int getAge() {
         return myAge;
     }
@@ -25,12 +25,12 @@ public class Person {
         return myGender;
     }
 
-    // Set their name 
+    // Set their name
     public void setName(String name) {
         myName = name;
     }
 
-    // Set their age 
+    // Set their age
     public void setAge(int age) {
         myAge = age;
     }
@@ -40,7 +40,7 @@ public class Person {
         myGender = gender;
     }
 
-    // Return their info as a friendly string 
+    // Return their info as a friendly string
     public String toString() {
         return myName + ", age: " + myAge + ", gender: " + myGender;
     }

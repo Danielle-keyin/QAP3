@@ -1,5 +1,5 @@
 public class Student extends Person {
-    protected String myIdNum;  // Student ID 
+    protected String myIdNum;  // Student ID
     protected double myGPA;    // GPA — the tiny decimal that controls their self-worth
 
     // Constructor — builds a student, probably tired, definitely broke
@@ -9,17 +9,17 @@ public class Student extends Person {
         myGPA = gpa;
     }
 
-    // Get their student ID 
+    // Get their student ID
     public String getIdNum() {
         return myIdNum;
     }
 
-    // Get their GPA 
+    // Get their GPA
     public double getGPA() {
         return myGPA;
     }
 
-    // Set a new student ID 
+    // Set a new student ID
     public void setIdNum(String idNum) {
         myIdNum = idNum;
     }
